@@ -1,0 +1,425 @@
+body {
+  margin: 0;
+  padding: 0;
+  width: 100%;
+}
+
+header,
+nav {
+  display: block;
+}
+
+h1 {
+  font-family: "Arvo";
+  font-weight: normal;
+  font-size: 55px;
+  text-align: center;
+  color: #fff;
+  margin: 0;
+  padding: 0;
+}
+
+h2 {
+  font-family: "Arvo";
+  font-weight: normal;
+  font-size: 40px;
+  text-align: center;
+  color: #fff;
+  margin: 0;
+  padding: 0;
+}
+
+h3 {
+  font-family: Oswald;
+  font-weight: normal;
+  font-size: 16px;
+  text-align: center;
+  margin: 5px 0;
+  padding: 0;
+}
+
+a {
+  text-decoration: none;
+  color: yellow;
+}
+
+a:hover {
+  color: #fff;
+}
+
+.center {
+  margin: 0 auto;
+}
+
+.content {
+  margin: 0 auto;
+  width: 80%;
+}
+
+.clear {
+  clear: both;
+}
+
+#header {
+  width: 100%;
+  background: url('http://landing.oxanaweb.com/images/header-bg.png');
+  height: 80px;
+  position: fixed;
+  margin-top: 30px;
+}
+
+#nav {
+  float: right;
+  margin-top: 20px;
+  text-align: right;
+}
+
+.logo {
+
+  height: 120px;
+  max-width: 100%;
+  float: left;
+  margin-top: 20px;
+  }
+
+}
+
+#logo a:hover {
+  color: yellow;
+}
+
+#nav ul {
+  list-style: none;
+  display: block;
+  margin: 0 auto;
+}
+
+#nav li {
+  margin-top: 9px;
+  float: left;
+  padding-left: 21px;
+}
+
+#nav li a {
+  color: #fff;
+  opacity: 0.6;
+  font-size: 16px;
+  text-decoration: none;
+  font-family: 'Wellfleet';
+}
+
+#nav li a.active {
+  color: #fff;
+  opacity: 1;
+}
+
+#nav li a:hover {
+  color: #fff;
+  opacity: 1;
+}
+
+.quotes {
+  font-family: 'Goudy Bookletter 1911', serif;
+  font-weight: normal;
+  font-size: 30px;
+  text-align: left;
+  margin: 50px auto;
+}
+
+.quotes_container {
+  width: 80%;
+  margin: 0 auto;
+}
+
+#divider {
+  /*background: url('http://landing.oxanaweb.com/images/divider.png') no-repeat;*/
+  width: 300px;
+  height: 35px;
+  margin: 0px auto 27px auto;
+  border-bottom: 3px solid #fff;
+}
+
+#button {
+  background: url('http://landing.oxanaweb.com/images/button.png') no-repeat;
+  width: 251px;
+  height: 48px;
+  margin: 0 auto;
+  display: block;
+  padding-top: 5px;
+}
+
+
+
+#arrow {
+  background: url('http://landing.oxanaweb.com/images/arrow.png') no-repeat;
+  height: 60px;
+  width: 40px;
+  margin: 0 auto;
+  display: block;
+}
+
+#home,
+#about {
+  width: 100%;
+}
+
+#home {
+
+  background-image:linear-gradient(rgba(0,0,0,.9),rgba(5,0,0,.1)), url('../img/homeback.jpg');
+  color: #fff;
+  height: 600px;
+  margin: 0;
+  padding: 200px 0 260px 0;
+  background-position: 0 -150px;
+  background-size: cover;
+  background-repeat: no-repeat;
+
+}
+
+#about {
+  background-color: #fff;
+  color: #333333;
+  height: 300px;
+  margin: 0 auto;
+  overflow: hidden;
+  padding: 200px 0;
+}
+
+#services {
+  background: url('../img/servback.jpg') 50% 0 no-repeat fixed;
+  color: #fff;
+  height: 600px;
+  padding: 170px 0 0 0;
+  background-size: cover;
+}
+
+#portfolio {
+  background-color: #fff;
+  color: #333333;
+  height: auto;
+  padding-bottom: 100px;
+}
+
+#contact {
+  background: url('../img/contactback.jpg') 50% 0 no-repeat fixed;
+  height: 200px;
+  margin: 0 auto;
+  padding: 250px 0;
+  color: #fff;
+  background-size: cover;
+}
+
+#copyright {
+  color: #fff;
+  font-family: "Wellfleet";
+  font-size: 14px;
+  margin-top: 100px;
+  text-align: center;
+}
+
+#copyright a {
+  text-decoration: none;
+  color: #fff;
+}
+
+#home a {
+  color: #fff;
+}
+
+#home a:hover {
+  color: yellow;
+}
+
+#menu-icon {
+  display: none;
+}
+
+#slidenav,
+ul#slidenav {
+  display: none;
+}
+
+.email {
+  background: url('../img/email4.png');
+  background-repeat: no-repeat;
+  width: 48px;
+  height: 48px;
+  display: block;
+}
+
+.twitter {
+  background: url('../img/twitter.png');
+  background-repeat: no-repeat;
+  width: 48px;
+  height: 48px;
+  display: block;
+}
+
+.instagram {
+  background: url('../img/instagram3.png');
+  background-repeat: no-repeat;
+  width: 48px;
+  height: 48px;
+  display: block;
+}
+
+.quotes_container ul {
+  list-style: none;
+  display: block;
+}
+
+.icons {
+  width: 200px;
+  margin: 0 auto;
+}
+
+.icons li {
+  display: inline-block;
+  margin-left: 8px;
+}
+
+.portfoliocontent {
+  width: 80%;
+  max-width: 960px;
+  margin: auto;
+  padding-left: 50px;
+  padding-right: 50px;
+  padding-top: 30px;
+}
+
+
+/* Floated Columns ------------------ */
+
+.portfimg1,
+.portfimg2 {
+  width: 46.5%;
+}
+
+.portfimg1 {
+  float: left;
+}
+
+.portfimg2 {
+  float: right;
+}
+
+.portfimg1,
+.portfimg2 {
+  margin-bottom: 10px;
+}
+
+.portfimg1 img,
+.portfimg2 img {
+  display: block;
+  max-width: 100%;
+  height: auto;
+  border: 1px solid #c0bfbe;
+  border-radius: 7px;
+  padding: 4px;
+}
+
+.caption {
+  text-align: center;
+  font-family: 'Goudy Bookletter 1911', serif;
+  font-size: 20px;
+  font-weight: bold;
+  color: #000000;
+}
+
+#portfolio h1 {
+  text-align: center;
+  font-size: 30px;
+  color: #000000;
+  font-family: 'Goudy Bookletter 1911', serif;
+  padding-top: 120px;
+}
+
+
+/* Float Clearfix ------------------ */
+
+.group:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+
+/* Media Queries -------------------- */
+
+@media (max-width: 747px) {
+  ul#slidenavdesktop {
+    display: none;
+  }
+  /* menu icon */
+  #menu-icon {
+    height: 30px;
+    background: url('http://landing.oxanaweb.com/images/menu-icon.png') no-repeat 10px center;
+    background-color: #fff;
+    opacity: 0.9;
+    border-radius: 2px;
+    padding: 8px 10px 0 33px;
+    cursor: pointer;
+    border: solid 1px #666;
+    display: block;
+    /* show menu icon */
+  }
+  #menu-icon:hover {
+    opacity: 0.5;
+  }
+  #menu-icon.active {
+    background-color: 0.7;
+  }
+  /* main nav */
+  #slidenav {
+    clear: both;
+    position: absolute;
+    top: 80px;
+    right: 0;
+    z-index: 10000;
+    padding: 5px;
+    display: none;
+    /* visibility will be toggled with jquery */
+    font-size: 40px;
+    background-color: white;
+    width: 100%;
+    text-align: center;
+  }
+  ul#slidenav {
+    display: none;
+  }
+  #slidenav li {
+    clear: both;
+    float: none;
+    margin: 5px 5px 10px 20px;
+    background: url('http://landing.oxanaweb.com/images/header-bg.png');
+  }
+  .lastslide {
+    margin-top: -20px;
+  }
+  .portfimg1,
+  .portfimg2 {
+    width: 100%;
+    float: none;
+  }
+}
+
+@media (max-width: 636px) {
+  .mobile {
+    display: none;
+  }
+
+  h1 {
+    font-size: 50px;
+  }
+
+  #divider {
+    width: 200px;
+  }
+}
+
+@media (min-width: 748px) {
+  /* ensure #nav is visible on desktop version
+	ul#slidenav {
+		display: block !important;
+	}*/
+}
